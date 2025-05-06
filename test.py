@@ -1,7 +1,5 @@
 import numpy as np
+from numpy.random import uniform
 
-a = np.identity(5)
-
-for i in range(5):
-    a[:, i] /= np.sum(a[:, i])
-print(a)
+x0 = np.ones(5) / 5
+print(x0)
